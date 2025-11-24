@@ -1,5 +1,6 @@
+// ArticleList.js
 import React from "react";
-import Article from "./Article"; // ← needed
+import Article from "./Article";
 
 function ArticleList({ posts }) {
   return (

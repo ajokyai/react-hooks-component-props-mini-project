@@ -1,17 +1,12 @@
-import React from 'react'
+// Header.js
+import React from "react";
 
-function Header({name}) {
+function Header({ name }) {
   return (
-    <Header>
-        <h1>{name}</h1>
-        <nav>
-          <a href="#home">Home</a> | <a href="#about">About</a> | <a href="#articles">Articles</a>
-            
-        </nav>
-    </Header>
-      
-    
-  )
+    <header>
+      <h1>{name}</h1>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
